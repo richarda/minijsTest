@@ -1,0 +1,25 @@
+{
+  "name": "mini-js-test",
+  "version": "1.0.0",
+  "description": "a mini project to try different js testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --format json:cucumber-results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richarda/minijsTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richarda/minijsTest/issues"
+  },
+  "homepage": "https://github.com/richarda/minijsTest#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "npm": "^6.4.0"
+  }
+}
